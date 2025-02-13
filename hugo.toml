@@ -13,7 +13,7 @@ disableKinds = ["taxonomy", "term"]
       unsafe = true
       
 [params.author]
-   namename = "Fluffy Paws"
+   name = "Fluffy Paws"
    headline = "Cat are awesome, you can write your description about your store or yourself here"
    image = "img/author.jpg"  # path relative to static directory
    

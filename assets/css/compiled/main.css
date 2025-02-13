@@ -62,8 +62,9 @@ html,
 */
 
 body {
-  background-image: url('/img/moroccan-flower.png');
+  background-image: url('/img/pink-pastel.png');
   background-size: cover;
+  background-position: center;
   margin: 0;
   /* 1 */
   line-height: inherit;

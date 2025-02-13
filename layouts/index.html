@@ -20,11 +20,11 @@
           src="{{ $src }}"
         />
       {{ end }}
-      <h1 class="text-4xl font-extrabold">
+      <h1 class="lonk text-4xl font-extrabold">
         {{ .Params.title | default .Site.Params.Author.name | default .Site.Title | emojify }}
       </h1>
       {{ with .Site.Params.Author.headline }}
-      <h2 class="text-xl text-neutral-500">
+      <h2 class="lonk text-xl text-neutral-500">
           {{ . | markdownify | emojify }}
         </h2>
       {{ end }}
