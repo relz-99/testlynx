@@ -1,14 +1,14 @@
 {{ define "main" }}
   <article class="mt-10 flex flex-col items-center justify-center">
-    <nav class="place-self-start">
-      <a href="{{ "" | relURL }}" class="text-neutral-500">&larr; {{ i18n "nav.home" }}</a>
+    <nav class="lonk place-self-start">
+      <a href="{{ "" | relURL }}" class="text-neutral-800">&larr; {{ i18n "nav.home" }}</a>
     </nav>
     <header>
-      <h1 class="mb-6 mt-2 text-center text-4xl font-extrabold text-neutral-800">
+      <h1 class="lonk mb-6 mt-2 text-center text-4xl font-extrabold text-neutral-800">
         {{ .Title | emojify }}
       </h1>
     </header>
-    <section class="prose">
+    <section class="lonk prose">
       {{ .Content | emojify }}
     </section>
   </article>

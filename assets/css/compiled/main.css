@@ -62,7 +62,7 @@ html,
 */
 
 body {
-  background-image: url('/img/pink-pastel.png');
+  background-image: url('/img/cute-dino.png');
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -1562,9 +1562,6 @@ video {
   .lg\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
-  }
-  body {
-      background-size: contain;
   }
 }
 
