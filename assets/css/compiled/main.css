@@ -1563,6 +1563,9 @@ video {
     padding-left: 8rem;
     padding-right: 8rem;
   }
+  body {
+      background-size: contain;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
