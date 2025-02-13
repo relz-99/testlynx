@@ -64,7 +64,8 @@ html,
 body {
   background-image: url('/img/cute-dino.png');
   background-size: cover;
-  background-position: center;
+  background-position: center top;
+  background-repeat: repeat-y;
   margin: 0;
   /* 1 */
   line-height: inherit;
